@@ -10,7 +10,7 @@ To understand the tweets the use of sentiment analysis with the various emotions
 Meanwhile, people have expressed their feelings regarding the vaccinations' safety and effectiveness on social networking sites such as Twitter.
 
 ## Table of contents
-- [Architecture](#about-the-project)
+- [Architecture](#Architecture)
 - [About the Project](#about-the-project)
   * [Tech Stack](#tech-stack)
   * [Environment Variables](#environment-variables)
