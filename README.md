@@ -18,7 +18,7 @@ Meanwhile, people have expressed their feelings regarding the vaccinations' safe
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
   * [Run Locally](#running-tests)
-- [Usage](#usage)
+- [Visualisation](#usage)
 - [Contributing](#contributing)
   * [Code of Conduct](#code-of-conduct)
 - [FAQ](#faq)
