@@ -183,11 +183,11 @@ flume-ng agent -n TwitterAgent -f C:\apache-flume-1.9.0-bin\conf\twitter_config.
 
 ## Visualisation
 Examples of sentiment analysis based on data:
-Solarized dark             |  Solarized Ocean
+Positive vs Negative tweets             |  Word Cloud
 :-------------------------:|:-------------------------:
-![alt text](https://github.com/AnshDesai/Covid-19-Twitter-Data/blob/master/vis1.png?raw=true)
-  |  ![alt text](https://github.com/AnshDesai/Covid-19-Twitter-Data/blob/master/vis2.png?raw=true)
+![alt text](https://github.com/AnshDesai/Covid-19-Twitter-Data/blob/master/vis1.png?raw=true)|  ![alt text](https://github.com/AnshDesai/Covid-19-Twitter-Data/blob/master/vis2.png?raw=true)
 
+Location wise trend
 ![alt text](https://github.com/AnshDesai/Covid-19-Twitter-Data/blob/master/vis3.png?raw=true)
 
 ## Contributing
