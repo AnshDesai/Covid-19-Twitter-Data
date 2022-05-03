@@ -8,10 +8,9 @@ In general and during lockdown phases, people worldwide use social media network
 Twitter is one of the most commonly used social media platforms, and it showed a massive increase in tweets related to coronavirus, including positive, negative, and neutral tweets, in a minimal period. 
 To understand the tweets the use of sentiment analysis with the various emotions of the public toward COVID-19 due to the diverse nature of tweets. 
 Meanwhile, people have expressed their feelings regarding the vaccinations' safety and effectiveness on social networking sites such as Twitter.
-## Architecture
-![alt text](https://github.com/AnshDesai/Covid-19-Twitter-Data/blob/master/architecture.png?raw=true)
 
 ## Table of contents
+- [Architecture](#about-the-project)
 - [About the Project](#about-the-project)
   * [Tech Stack](#tech-stack)
   * [Environment Variables](#environment-variables)
@@ -26,6 +25,10 @@ Meanwhile, people have expressed their feelings regarding the vaccinations' safe
 - [License](#license)
 - [Contact](#contact)
 - [Acknowledgements](#acknowledgements)
+
+## Architecture
+![alt text](https://github.com/AnshDesai/Covid-19-Twitter-Data/blob/master/architecture.png?raw=true)
+
 ## About the project
 Streaming data integration is the foundation for leveraging streaming analytics. Specific use cases such as Fraud detection, contextual marketing triggers, Dynamic pricing all rely on leveraging a data feed or real-time data.
 In many data centers, different type of servers generate large amount of data(events, Event in this case is status of the server in the data center) in real-time.
