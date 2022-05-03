@@ -147,12 +147,12 @@ To run this project, you will need to add the following environment variables to
     5. Add SPARK_HOME/bin to the PATH variable.
     6. Make sure JAVA_HOME is set to JDK version 1.8
     7. Download the spark-streaming-kafka-assembly_2.11-1.6.0.jar file in this project to the local workspace
-    8. Use the following example command to run: 
-    ```bash
-    bin\spark-submit --jars spark-streaming-kafka-assembly_2.11-1.6.0.jar D:\SparkStreaming\spark-kafka.py 3.22.26.9:9092 twitter_stream_new D:\tweets.txt
-    ```
 
-
+* Mongo DB
+    
+    1. Download and install latest [MongoDB Compass](https://www.mongodb.com/try/download/community).
+    2. Create database and a collection that can be configured in consumer.py file.
+     
 ## Running Tests
 
 To run tests, run the following commands.
@@ -174,40 +174,33 @@ bin/kafka-server-start.sh config/server.properties
 ```bash
 flume-ng agent -n TwitterAgent -f C:\apache-flume-1.9.0-bin\conf\twitter_config.conf
 ```
-
-
-
-
-## Examples
-
-```javascript
-import Component from 'my-project'
-
-function App() {
-  return <Component />
-}
+6. Run Producer (This will help data flow from kafka to spark streaming)
+```python producer.py
+```
+7. Run consumer (This will help data be processed and consumed by mongodb for storage)
+```python consumer.py
 ```
 
+## Visualisation
+Examples of sentiment analysis based on data:
+![alt text](https://github.com/AnshDesai/Covid-19-Twitter-Data/blob/master/vis1.jpg?raw=true)
 
 ## Contributing
 
 Contributions are always welcome!
-
-See `contributing.md` for ways to get started.
-
 Please adhere to this project's `code of conduct`.
 
 
 ## FAQ
 
-#### Question 1
+#### Can other big data tools work with this project?
+Yes, some other big data tools that can be used are: 
+* For data storage: Hive, cassandra etc.
+* For visualisation: Plotly.js, Kibana(Using ElasticSearch)
 
-Answer 1
-
-#### Question 2
-
-Answer 2
-
+#### Can this architecture be deployed on cloud?
+Yes, this framework can be deployed on cloud (AWS, GoogleCloud etc.) 
+* One can use Kinesis Firehose for data channel and S3 for data storage.
 
 ## License
 
