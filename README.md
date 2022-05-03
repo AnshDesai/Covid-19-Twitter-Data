@@ -175,15 +175,17 @@ bin/kafka-server-start.sh config/server.properties
 flume-ng agent -n TwitterAgent -f C:\apache-flume-1.9.0-bin\conf\twitter_config.conf
 ```
 6. Run Producer (This will help data flow from kafka to spark streaming)
-```python producer.py
+```bash 
+python producer.py
 ```
 7. Run consumer (This will help data be processed and consumed by mongodb for storage)
-```python consumer.py
+```bash
+python consumer.py
 ```
 
 ## Visualisation
 Examples of sentiment analysis based on data:
-Positive vs Negative tweets             |  Word Cloud
+ Word Cloud            |  Positive vs Negative tweets
 :-------------------------:|:-------------------------:
 ![alt text](https://github.com/AnshDesai/Covid-19-Twitter-Data/blob/master/vis1.png?raw=true)|  ![alt text](https://github.com/AnshDesai/Covid-19-Twitter-Data/blob/master/vis2.png?raw=true)
 
