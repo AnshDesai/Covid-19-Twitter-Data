@@ -31,7 +31,7 @@ Meanwhile, people have expressed their feelings regarding the vaccinations' safe
 
 ## About the project
 Streaming data integration is the foundation for leveraging streaming analytics. Specific use cases such as Fraud detection, contextual marketing triggers, Dynamic pricing all rely on leveraging a data feed or real-time data. In many data centers, different type of servers generate large amount of data(events, Event in this case is status of the server in the data center) in real-time. There is always a need to process these data in real-time and generate insights which will be used by the server/data center monitoring people and they have to track these server's status regularly and find the resolution in case of issues occurring, for better server stability. Since the data is huge and coming in real-time, we need to choose the right architecture with scalable storage and computation frameworks/technologies.
-Hence we want to build the Real Time Data Pipeline Using Apache Kafka, Apache Spark, Apache Flume, MongoDB, and  to generate insights out of this data.
+Hence we want to build the Real Time Data Pipeline Using Apache Kafka, Apache Spark, Apache Flume, MongoDB to generate insights out of this data.
 
 ## Tech Stack
 
@@ -183,8 +183,12 @@ flume-ng agent -n TwitterAgent -f C:\apache-flume-1.9.0-bin\conf\twitter_config.
 
 ## Visualisation
 Examples of sentiment analysis based on data:
+Solarized dark             |  Solarized Ocean
+:-------------------------:|:-------------------------:
 ![alt text](https://github.com/AnshDesai/Covid-19-Twitter-Data/blob/master/vis1.png?raw=true)
-![alt text](https://github.com/AnshDesai/Covid-19-Twitter-Data/blob/master/vis2.png?raw=true)
+  |  ![alt text](https://github.com/AnshDesai/Covid-19-Twitter-Data/blob/master/vis2.png?raw=true)
+
+![alt text](https://github.com/AnshDesai/Covid-19-Twitter-Data/blob/master/vis3.png?raw=true)
 
 ## Contributing
 
